@@ -1,6 +1,8 @@
 > [!CAUTION]
 > This verifier version is deprecated. Please use the [new verifier](https://github.com/ton-blockchain/acton/tree/master/apps/verifier)
 > instead.
+>
+> The previous configuration is preserved in `config-old.json` for archival purposes only. Do not use its verifier endpoints.
 
 # Contract Verifier Config
 
