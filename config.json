@@ -1,7 +1,19 @@
 {
-  "verifiers": [],
-  "backends": [],
-  "backendsTestnet": [],
+  "__comment": "Compatibility backends for legacy @ton/blueprint versions. They return an upgrade notice instead of performing verification.",
+  "verifiers": [
+    {
+      "id": "verifier.ton.org",
+      "network": "mainnet",
+      "backends": ["https://verifier.ton.org"]
+    },
+    {
+      "id": "verifier.ton.org",
+      "network": "testnet",
+      "backends": ["https://verifier.ton.org"]
+    }
+  ],
+  "backends": ["https://verifier.ton.org"],
+  "backendsTestnet": ["https://verifier.ton.org"],
   "funcVersions": [],
   "tactVersions": [],
   "tolkVersions": []
